@@ -1,0 +1,41 @@
+.carousel-inner {
+    transition: transform 1s ease;
+  }
+  
+  .carousel-item {
+    transition: transform 1s ease;
+  }
+
+  #font{
+    color: rgb(8, 34, 34);
+    border: 1px solid black;
+    padding: 7px;
+    margin-bottom: 4px;
+    margin-top: 2px;
+    margin-right: 6px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+  }
+
+
+  
+  /* nav fonts */
+  #font {
+    color: rgb(8, 34, 34);
+    border: 1px solid black;
+    padding: 7px;
+    margin-bottom: 4px;
+    margin-top: 2px;
+    margin-right: 6px;
+    border-radius: 20px;
+    background-color: antiquewhite;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 600px) {
+    #font {
+      font-size: 20px; /* Adjust the font size for smaller screens */
+      padding: 20px;   /* Adjust other styles as needed */
+      margin-right: 4px;
+    }
+  }  

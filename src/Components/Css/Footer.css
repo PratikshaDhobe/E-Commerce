@@ -1,0 +1,63 @@
+  /* General styling for the footer section */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  /* Styling for the box containers */
+  .box-container {
+    display: flex;
+    margin-right: 20px;
+    justify-content: space-around;
+  }
+  
+
+  .box3{
+    border: 2px solid black;
+    color: white;
+    background-color: rgb(18, 8, 8);
+    align-items: center;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  /* Styling for the quick links */
+  .box a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 8px 0;
+  }
+
+  
+  /* Styling for social links */
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  /* Styling for credit */
+  .credit {
+    text-align: center;
+    margin-top: 20px;
+    color: #ccc;
+  }
+  
+  
+  /* Responsive styling */
+  @media screen and (max-width: 768px) {
+    .box-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .social-links {
+      margin-top: 10px;
+    }
+  }
